@@ -43,12 +43,17 @@ public class FileDiffCheck {
 			
 		}
 		
+		/* If you want to look at the desired output 
+		 
+		// No. of lines found with my condition 
 		System.out.println(uniqueLines.size());
 		
+		// Display line by line
 		for(String uniqueLine : uniqueLines) { 
 			System.out.println(uniqueLine);
 		}
 		
+		*/
 	}
 
 	private static List<String> processFile(File file) throws IOException {
